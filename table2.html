@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <center>
+            <img src="Screenshot 2025-06-16 095607.png" width="1000"></center>    
+            <fieldset style="width: 900px;margin: auto;" >
+               <legend ><button style="background-color:rgb(43, 133, 131); padding: 7px; color: white; font-size: larger;"><b>Application Details</b></button></legend>
+            <table cellpadding="20" width="1000">
+            <tr>
+                <td>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname">
+                </td>
+                <td>
+                    <label for="father's name">Father's Name:</label>
+                    <input type="text" id="father's name" name="father's name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">DOB:</label>
+                    <input type="date" id="dob" name="dob" >
+                </td>
+                <td>
+                    Gender:
+                    <input type="radio">
+                    <label for="Male">Male</label>
+                    <input type="radio">
+                    <label for="FeMale">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age:</label>
+                    <input type="text" id="age">
+                </td>
+                <td>
+                    <label for="aadhar no">Aadhar No:</label>
+                    <input type="text" id="aadhar no">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label for="wehatsapp no">Whatsapp No:</label>
+                    <input type="text" id="whatsapp no">
+                </td>
+                <td>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="image">Photo:</label>
+                    <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                </td>
+            </tr>
+            </table>
+           </fieldset>
+           <fieldset style="width: 900px;margin: auto;" >
+               <!-- <legend><b><fieldset style="width: 900px;margin: auto;" > -->
+               <legend><button style="background-color:rgb(43, 133, 131); padding: 7px; color: white; font-size: larger;"><b>Residential Address Details:</b></button></legend>
+            <table cellpadding="20" width="1000">
+                <tr>
+                    <td>
+                        <label for="address">Applicant's Address:</label>
+                        <textarea type="address" id="address" name="address">
+                        </textarea>
+                    </td>
+                    <td>
+                        <label for="district">District:</label>
+                        <input type="text" id="district" name="district">
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <label for="Mandal">Mandal:</label>
+                        <input type="text" id="mandal" name="mandal">
+                    </td>
+                    <td>
+                        <td>
+                        <label for="village">village:</label>
+                        <input type="text" id="village" name="village">
+                    </td>
+                </tr>
+
+        </table>
+         </fieldset>
+           <fieldset style="width: 900px;margin: auto;" >
+               <!-- <legend><b><fieldset style="width: 900px;margin: auto;" > -->
+               <legend><button style="background-color:rgb(43, 133, 131); padding: 7px; color: white; font-size: larger;"><b>Pass type Details:</b></button></legend>
+            <table cellpadding="20" width="1000">
+                <tr>
+                    <td>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city">
+                    </td>
+                    <td>
+                    <label for="pass type">Pass Type:</label>
+                    <select name="pass type" id="pass type">
+                    <option value="----select type----">----select----</option>
+                    <option value="bus pass">Bus Pass</option>
+                    <option value="metro pass">Metro Pass</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    <label for="from">From Place:</label>
+                    <input type="text" id="from" name="from">
+                </td>
+                <td>
+                    <label for="To ">To Place:</label>
+                    <input type="text" id="to" name="to">
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="width: 500px;" >
+                    <label for="route">Route:</label>
+                    <input type="text" id="route" name="route" style="width: 700px; " >
+                    </td>
+                </tr>
+                </table>
+           </fieldset>
+            <fieldset style="width: 900px;margin: auto;" >
+               <!-- <legend><b><fieldset style="width: 900px;margin: auto;" > -->
+               <legend><button style="background-color:rgb(43, 133, 131); padding: 7px; color: white; font-size: larger;"><b>Pass type Details:</b></button></legend>
+            <table cellpadding="20" width="1000">   
+                <tr>
+                    <td>
+                        <label for="payment mode">Payment Mode:</label>
+                       <select name="payment mode" id="payment mode">
+                         <option value="payment at counter">Select Payment Mode</option>
+                        <option value="payment at counter">Payment at Counter</option>
+                       </select>
+                    </td>
+                </tr>    
+                <tr>
+                    <td>
+                        <label for="pass delivery mode">Pass Delivery Mode:</label>
+                        <select name="payment mode" id="payment mode">
+                         <option value="payment at counter">select pass delivery mode</option>
+                        <option value="payment at counter">At Counter</option>
+                       </select>
+                    </td>
+                </tr>   
+                <tr>
+                    <td colspan="10" rowspan="10">
+                        <label for="center at which you want">Center at which you want to collect:</label>
+                        <select name="center at which you want" id="center at which you want" style="width: 700px; height: 30px;">
+                         <option value="select">select</option>
+                        <option value="hyderabadh">Hyderabadh</option>
+                       </select>
+                    </td>
+                </tr>    
+                </table>  
+                </fieldset><br>
+                <form>
+                    <center><input type="submit" style="background-color: rgb(220, 63, 54); font-size: larger; color: white;   padding:10px";></center>
+                </form>
+
+</html>
